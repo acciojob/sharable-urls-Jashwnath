@@ -15,6 +15,6 @@ function changeHeader(){
 		finalUrl += "?" + params.toString();
 	}
 	
-    document.getElementById('urlDisplay').textContent = finalUrl;
+    document.getElementById('url').textContent = finalUrl;
 	// Redirect to the new URL
 }
